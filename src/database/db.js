@@ -72,12 +72,12 @@ db.serialize(() => {
 
 
 //     // 4- deletar um dado da tabela
-    // db.run(`DELETE FROM places WHERE id = ?`, [11], function(err, rows){
-    //     if(err) {
-    //         return console.log(err)
-    //     }    
-    //         console.log("Registro deletado com sucesso")
-    // })
+    db.run(`DELETE FROM places WHERE id = ?`, [13], function(err, rows){
+        if(err) {
+            return console.log(err)
+        }    
+            console.log("Registro deletado com sucesso")
+    })
     
         
 })    

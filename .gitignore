@@ -1,0 +1,366 @@
+
+# Criado por https://www.gitignore.io/api/visualstudio,visualstudiocode
+# Editar em https://www.gitignore.io/?templates=visualstudio,visualstudiocode
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+
+### Patch do VisualStudioCode ###
+# Ignora todo o histórico local de arquivos
+.história
+
+### Estúdio visual ###
+## Ignore os arquivos temporários do Visual Studio, crie resultados e
+## arquivos gerados por complementos populares do Visual Studio.
+##
+## Receba as últimas notícias em https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# Arquivos específicos do usuário
+* .rsuser
+* .suo
+*.do utilizador
+* .userosscache
+* .sln.docstates
+
+# Arquivos específicos do usuário (MonoDevelop / Xamarin Studio)
+* .userprefs
+
+# Arquivos mono gerados automaticamente
+mono_crash. *
+
+# Construir resultados
+[Dd] ebug /
+[Dd] ebugPublic /
+[Rr] elease /
+[Rr] eleases /
+x64 /
+x86 /
+[Aa] [Rr] [Mm] /
+[Aa] [Rr] [Mm] 64 /
+bld /
+[Bb] em /
+[Oo] bj /
+[Ll] og /
+
+# Diretório de cache / opções do Visual Studio 2015/2017
+.vs /
+# Remova o comentário se você tiver tarefas que criam os arquivos estáticos do projeto no wwwroot
+# wwwroot /
+
+# Arquivos do Visual Studio 2017 gerados automaticamente
+Gerado \ Arquivos /
+
+Resultados do teste # MSTest
+[Tt] est [Rr] esult * /
+[Bb] uild [Ll] og. *
+
+# NUnit
+* .VisualState.xml
+TestResult.xml
+nunit - *. xml
+
+# Construir resultados de um projeto ATL
+[Dd] ebugPS /
+[Rr] eleasePS /
+dlldata.c
+
+# Resultados de referência
+BenchmarkDotNet.Artifacts /
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artefatos /
+
+# StyleCop
+StyleCopReport.xml
+
+# Arquivos criados pelo Visual Studio
+* _i.c
+* _p.c
+* _h.h
+* .ilk
+* .obj
+* .iobj
+* .pch
+* .pdb
+* .ipdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* _wpftmp.csproj
+*.registro
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+* .svclog
+* .scc
+
+# Arquivos de teste Chutzpah
+_Chutzpah *
+
+# Arquivos de cache do Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opendb
+* .opensdf
+* .sdf
+* .cachefile
+* .VC.db
+* .VC.VC.opendb
+
+# Visual Studio Profiler
+* .psess
+* .vsp
+* .vspx
+*.seiva
+
+# Arquivos de rastreamento do Visual Studio
+* .e2e
+
+# Área de trabalho local do TFS 2012
+$ tf /
+
+# Kit de ferramentas de automação de orientação
+* .gpState
+
+# ReSharper é um suplemento de codificação .NET
+_ReSharper * /
+*. [Rr] e [Ss] harper
+* .DotSettings.user
+
+# JustCode é um suplemento de codificação .NET
+.JustCode
+
+# TeamCity é um complemento de compilação
+_TeamCity *
+
+# DotCover é uma ferramenta de cobertura de código
+* .dotCover
+
+# AxoCover é uma ferramenta de cobertura de código
+.axoCover / *
+! .axoCover / settings.json
+
+# Resultados de cobertura de código do Visual Studio
+*.cobertura
+* .coveragexml
+
+# NCrunch
+_NCrunch_ *
+. * crunch * .local.xml
+nCrunchTemp_ *
+
+# MightyMoose
+*.milímetros.*
+AutoTest.Net/
+
+# Ambiente de trabalho na Web (sass)
+.sass-cache /
+
+# Pasta de saída Installshield
+[Ee] xpress /
+
+# DocProject é um suplemento de gerador de documentação
+DocProject / buildhelp /
+DocProject / Ajuda / *. HxT
+DocProject / Ajuda / *. HxC
+DocProject / Help / *. Hhc
+DocProject / Help / *. Hhk
+DocProject / Help / *. Hhp
+DocProject / Ajuda / Html2
+DocProject / Ajuda / html
+
+# Diretório Click-Once
+publicar/
+
+# Publicar saída da Web
+*. [Pp] ublish.xml
+* .azurePubxml
+# Nota: comente a próxima linha se desejar verificar as configurações de implantação da web,
+# mas as cadeias de conexão do banco de dados (com senhas em potencial) não serão criptografadas
+* .pubxml
+* .publishproj
+
+# Configurações de publicação do Microsoft Azure Web App. Comente a próxima linha se quiser
+# verificar as configurações de publicação do Azure Web App, mas informações confidenciais contidas
+# nesses scripts não serão criptografados
+PublishScripts /
+
+# Pacotes NuGet
+* .nupkg
+# Pacotes de símbolos NuGet
+* .snupkg
+# A pasta packages pode ser ignorada devido à restauração do pacote
+** / [Pp] ackages / *
+# exceto build /, que é usado como um destino MSBuild.
+! ** / [Pp] ackages / build /
+# Descomente, se necessário; no entanto, geralmente será regenerado quando necessário
+#! ** / [Pp] ackages / repositories.config
+# Os arquivos project.json do NuGet v3 produzem arquivos mais ignoráveis
+* .nuget.props
+* .nuget.targets
+
+# Saída de compilação do Microsoft Azure
+csx /
+* .build.csdef
+
+# Emulador do Microsoft Azure
+ecf /
+rcf /
+
+# Diretórios e arquivos de pacotes de aplicativos da Windows Store
+AppPackages /
+Artefatos /
+Package.StoreAssociation.xml
+_pkginfo.txt
+* .appx
+* .appxbundle
+* .appxupload
+
+# Arquivos de cache do Visual Studio
+# arquivos que terminam em .cache podem ser ignorados
+*. [Cc] dor
+# mas acompanhe os diretórios que terminam em .cache
+!? *. [Cc] dor /
+
+# Outras
+ClientBin /
+~ $ *
+* ~
+* .dbmdl
+* .dbproj.schemaview
+* .jfm
+* .pfx
+* .publishsettings
+orleans.codegen.cs
+
+# Incluir arquivos de nome forte pode representar um risco de segurança
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+# *. snk
+
+# Como existem vários fluxos de trabalho, remova o comentário da próxima linha para ignorar bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+# bower_components /
+
+# Projetos RIA / Silverlight
+Generated_Code /
+
+# Faça backup e relate arquivos da conversão de um arquivo de projeto antigo
+# para uma versão mais recente do Visual Studio. Arquivos de backup não são necessários,
+# porque temos git ;-)
+_UpgradeReport_Files /
+Cópia de segurança*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+ServiceFabricBackup /
+* .rptproj.bak
+
+# Arquivos do SQL Server
+* .mdf
+* .ldf
+* .ndf
+
+# Projetos de Business Intelligence
+* .rdl.data
+* .bim.layout
+* .bim _ *. configurações
+* .rptproj.rsuser
+* - [Bb] ackup.rdl
+* - [Bb] acup ((0-9)). Rdl
+* - [Bb] ackup ([0-9] [0-9]). Rdl
+
+# Microsoft Fakes
+FakesAssemblies /
+
+# Arquivo de configuração do plugin GhostDoc
+* .GhostDoc.xml
+
+# Node.js Ferramentas para Visual Studio
+.ntvs_analysis.dat
+node_modules /
+
+# Log de compilação do Visual Studio 6
+* .plg
+
+# Arquivo de opções do espaço de trabalho do Visual Studio 6
+*.optar
+
+# Arquivo do espaço de trabalho gerado automaticamente pelo Visual Studio 6 (contém os arquivos que foram abertos etc.)
+* .vbw
+
+# Saída de criação do Visual Studio LightSwitch
+** / *. HTMLClient / GeneratedArtifacts
+** / *. DesktopClient / GeneratedArtifacts
+** / *. DesktopClient / ModelManifest.xml
+** / *. Server / GeneratedArtifacts
+** / *. Server / ModelManifest.xml
+_Pvt_Extensions
+
+# Gerenciador de dependência de pacotes
+.paket / paket.exe
+arquivos-paket /
+
+# FAKE - Marca F #
+.fake /
+
+# CodeRush configurações pessoais
+.cr / pessoal
+
+# Ferramentas Python para Visual Studio (PTVS)
+__pycache __ /
+* .pyc
+
+# Cake - Descomente se você estiver usando
+# Ferramentas/**
+#! tools / packages.config
+
+# Tabs Studio
+* .tss
+
+# Arquivo de configuração JustMock da Telerik
+* .jmconfig
+
+# Saída de compilação do BizTalk
+* .btp.cs
+* .btm.cs
+* .odx.cs
+* .xsd.cs
+
+# Resultados da análise de interface do usuário do OpenCover
+OpenCover /
+
+# Saída de execução local do Azure Stream Analytics
+ASALocalRun /
+
+# MSBuild Log binário e estruturado
+* .binlog
+
+# Arquivo de configuração do depurador NVidia Nsight GPU
+* .nvuser
+
+Pasta de trabalho # MFractors (ferramenta de produtividade Xamarin)
+.mfractor /
+
+# Histórico local para Visual Studio
+.localhistory /
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Pasta de backup da ferramenta de conversão de referência de pacote no Visual Studio 2017
+MigrationBackup /
+
+# Fim de https://www.gitignore.io/api/visualstudio,visualstudiocode

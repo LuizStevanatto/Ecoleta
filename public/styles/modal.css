@@ -101,7 +101,19 @@
     margin-top: 32px;
 }
 
-#modal img.class {
+#modal.erro .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#modal.erro h1 {
+    color: white;
+    margin-top: 32px;
+}
+
+#modal.erro img {
     width: 60px;
     height: 60px;
 }
